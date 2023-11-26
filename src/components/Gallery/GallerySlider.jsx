@@ -97,9 +97,11 @@ const GallerySlider = () => {
     <div data-aos="fade-up" className="bg-white dark:bg-gray-800">
       <span id="mobile_brands"></span>
       <div className=" py-10 md:px-10">
-        <h1 className="container !mx-4 mb-8 inline-block border-l-8 border-primary py-2 pl-2 text-xl font-bold text-gray-500 sm:text-3xl">
-          Our Happy Customers
-        </h1>
+        <div className="pl-2">
+          <h1 className="container mb-8 inline-block border-l-8 border-primary py-2 text-xl font-bold text-gray-500 sm:text-3xl">
+            Our Happy Customers
+          </h1>
+        </div>
         <Slider {...settings}>
           {CustomerImg.map((item, id) => (
             <div key={id} className="overflow-hidden p-2">
