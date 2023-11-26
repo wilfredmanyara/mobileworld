@@ -1,9 +1,9 @@
 import React from "react";
 import Slider from "react-slick";
-import IphoneImg from "/mobile-img/iphone2.jpg";
-import MotoImg from "/mobile-img/motorola.jpg";
-import Samsung from "/mobile-img/samsung.jpg";
-import Vivo from "/mobile-img/vivo.jpg";
+import IphoneImg from "../../assets/mobile-img/iphone2.jpg";
+import MotoImg from "../../assets/mobile-img/motorola.jpg";
+import Samsung from "../../assets/mobile-img/samsung.jpg";
+import Vivo from "../../assets/mobile-img/vivo.jpg";
 import TestimonialCard from "./TestimonialCard";
 
 const TestimonialData = [
