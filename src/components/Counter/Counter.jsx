@@ -7,6 +7,7 @@ const Counter = () => {
       data-aos="zoom-in"
       data-aos-offset="0"
       data-aos-delay="100"
+      data-aos-once="true"
       className="container h-12 md:h-32"
     >
       <div className="mx-auto my-4 grid w-full -translate-y-10 grid-cols-4 divide-x divide-slate-700 rounded-full bg-white p-2 shadow-lg dark:bg-gray-800 dark:text-white/70 md:max-w-[800px] md:-translate-y-16 md:p-8">

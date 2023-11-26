@@ -15,8 +15,8 @@ import BrandSwipper from "./components/BrandsSwiper/BrandsSwiper";
 import Location from "./components/Location/Location";
 import Testimonial from "./components/Testimonial/Testimonial";
 import Footer from "./components/Footer/Footer";
-import Gallery from "./components/Gallery/Gallery";
 import Team from "./components/Owner/Team";
+import GallerySlider from "./components/Gallery/GallerySlider";
 
 const bannerMockData = {
   title: "Transforming Tech Dreams into Reality!",
@@ -59,9 +59,9 @@ function App() {
         <ServiceCard />
         <BannerDetails reverse={true} img={Banner1} data={bannerMockData} />
         <BannerDetails img={Banner2} data={bannerMockData} />
+        <GallerySlider />
         <Banner />
         <BrandSwipper />
-        <Gallery />
         <Location />
         <Testimonial />
         <Team />

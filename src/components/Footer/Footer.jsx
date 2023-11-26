@@ -64,6 +64,8 @@ const Footer = () => {
                 <a href="tel:+918577020551">+91 8577020551</a>{" "}
               </p>
             </div>
+            {/* Google Translate */}
+            <div id="google_translate_element" className="mt-3"></div>
             {/* Social Handle */}
           </div>
           <div className="col-span-2 grid grid-cols-2 sm:grid-cols-3 md:pl-10 ">
