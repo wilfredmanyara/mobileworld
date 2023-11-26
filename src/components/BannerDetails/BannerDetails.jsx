@@ -38,7 +38,7 @@ const BannerDetails = ({ reverse, img, data }) => {
               </div>
             </div>
             <div
-              data-aos="fade-left"
+              data-aos="fade"
               data-aos-duration="400"
               data-aos-once="true"
               className={reverse ? "md:order-1" : "order-1"}
