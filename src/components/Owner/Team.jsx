@@ -12,7 +12,7 @@ const Team = () => {
             Meet Our Team
           </h1>
           <div className="grid grid-cols-1 gap-10 md:grid-cols-2 md:gap-4">
-            <div className="flex flex-row items-center gap-4">
+            <div className="flex items-center gap-4 sm:flex-row">
               <div className="">
                 <img
                   src={Tabrej}
@@ -22,7 +22,7 @@ const Team = () => {
               </div>
               <div className=" flex flex-col justify-center">
                 <h1 className="text-2xl font-bold text-gray-600 dark:text-white">
-                  Tabrej Ansari
+                  Mohammad Pervej
                 </h1>
                 <div className="mt-3 flex items-center gap-3">
                   <p>
@@ -36,9 +36,9 @@ const Team = () => {
                   </p>
                 </div>
                 <p className="text-gray-500">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Accusantium beatae voluptate quae tempora ducimus perspiciatis
-                  voluptas eaque quos quas modi.
+                  Welcome to Mobile World! As the owner, I'm committed to
+                  delivering top-notch tech experiences. Your journey with us is
+                  just beginning.
                 </p>
               </div>
             </div>
@@ -66,9 +66,9 @@ const Team = () => {
                   </p>
                 </div>
                 <p className="text-gray-500">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Accusantium beatae voluptate quae tempora ducimus perspiciatis
-                  voluptas eaque quos quas modi.
+                  Explore a world of cutting-edge mobiles, unbeatable
+                  accessories, and swift, expert services. Elevate your tech
+                  game with us!
                 </p>
               </div>
             </div>
