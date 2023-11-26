@@ -1,6 +1,25 @@
 import React from "react";
 import { FaUserCircle } from "react-icons/fa";
 
+const MobileMenus = [
+  {
+    name: "Home",
+    link: "/#",
+  },
+  {
+    name: "Top Brands",
+    link: "/#mobile_brands",
+  },
+  {
+    name: "Location",
+    link: "/#location",
+  },
+  {
+    name: "Testimonials",
+    link: "/#testimonial",
+  },
+];
+
 const ResponsiveMenu = ({ showMenu }) => {
   console.log("showMenu", showMenu);
   return (
@@ -19,33 +38,19 @@ const ResponsiveMenu = ({ showMenu }) => {
         </div>
         <nav className="mt-12">
           <ul className="space-y-4 text-xl">
-            <li>
-              <a href="/#" className="mb-5 inline-block">
-                Home
-              </a>
-            </li>
-            <li>
-              <a href="#mobile_brands" className="mb-5 inline-block">
-                Top brands
-              </a>
-            </li>
-            <li>
-              <a href="/#location" className="mb-5 inline-block">
-                Location
-              </a>
-            </li>
-            <li>
-              <a href="/#testimonial" className="mb-5 inline-block">
-                Testimonial
-              </a>
-            </li>
+            {MobileMenus.map((data) => (
+              <li>
+                <a href={data.link} className="mb-5 inline-block">
+                  {data.name}
+                </a>
+              </li>
+            ))}
           </ul>
         </nav>
       </div>
       <div className="footer">
         <h1>
-          2024 All Rights Reserved || Made with ❤ by{" "}
-          <a href="https://dilshad-ahmed.github.io/">Dilshad</a>{" "}
+          Made with ❤ by <a href="https://dilshad-ahmed.github.io/">Dilshad</a>{" "}
         </h1>
       </div>
     </div>

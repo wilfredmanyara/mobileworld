@@ -1,13 +1,15 @@
 import React from "react";
 import Slider from "react-slick";
 import BrandCard from "./BrandCard";
-import IphoneImg from "/mobile-img/iphone2.jpg";
-import MotoImg from "/mobile-img/motorola.jpg";
-import OppoImg from "/mobile-img/oppo.jpg";
-import Realme from "/mobile-img/realme.jpg";
-import Redmi from "/mobile-img/redmi.jpg";
-import Samsung from "/mobile-img/samsung.jpg";
-import Vivo from "/mobile-img/vivo.jpg";
+
+// image imports
+import IphoneImg from "../../assets/mobile-img/iphone2.jpg";
+import MotoImg from "../../assets/mobile-img/motorola.jpg";
+import OppoImg from "../../assets/mobile-img/oppo.jpg";
+import Realme from "../../assets/mobile-img/realme.jpg";
+import Redmi from "../../assets/mobile-img/redmi.jpg";
+import Samsung from "../../assets/mobile-img/samsung.jpg";
+import Vivo from "../../assets/mobile-img/vivo.jpg";
 
 const MobilesData = [
   {
@@ -62,48 +64,48 @@ const MobilesData = [
 //   );
 // }
 
-const Swipe = () => {
-  const settings = {
-    dots: false,
-    loop: true,
-    infinite: true,
-    speed: 800,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    mobileFirst: true,
-    autoplaySpeed: 3000,
-    cssEase: "linear",
-    pauseOnHover: false,
-    // nextArrow: <SampleNextArrow />,
-    // prevArrow: <SamplePrevArrow />,
-    responsive: [
-      {
-        breakpoint: 10000,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          infinite: true,
-          // dots: true,
-        },
+const settings = {
+  dots: false,
+  loop: true,
+  infinite: true,
+  speed: 800,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  mobileFirst: true,
+  autoplaySpeed: 3000,
+  cssEase: "linear",
+  pauseOnHover: false,
+  // nextArrow: <SampleNextArrow />,
+  // prevArrow: <SamplePrevArrow />,
+  responsive: [
+    {
+      breakpoint: 10000,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+        // dots: true,
       },
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          initialSlide: 2,
-        },
+    },
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        initialSlide: 2,
       },
-      {
-        breakpoint: 640,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
+    },
+    {
+      breakpoint: 640,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
       },
-    ],
-  };
+    },
+  ],
+};
+const BrandsSwiper = () => {
   return (
     <div data-aos="fade-up" className="bg-gray-100 dark:bg-gray-800">
       <span id="mobile_brands"></span>
@@ -123,4 +125,4 @@ const Swipe = () => {
   );
 };
 
-export default Swipe;
+export default BrandsSwiper;

@@ -1,18 +1,18 @@
 import React from "react";
 import Slider from "react-slick";
 
-import Img1 from "../../assets/shop/customer1.jpeg";
-import Img2 from "../../assets/shop/customer2.jpeg";
-import Img3 from "../../assets/shop/customer3.jpeg";
-import Img4 from "../../assets/shop/customer4.jpeg";
-import Img5 from "../../assets/shop/customer5.jpeg";
-import Img6 from "../../assets/shop/customer6.jpeg";
-import Img7 from "../../assets/shop/customer7.jpeg";
-import Img8 from "../../assets/shop/customer8.jpeg";
-import Img9 from "../../assets/shop/customer9.jpeg";
-import Img10 from "../../assets/shop/customer10.jpeg";
-import Img11 from "../../assets/shop/customer11.jpeg";
-import Img12 from "../../assets/shop/customer12.jpeg";
+import Img1 from "../../assets/customer-gallery/customer1.jpeg";
+import Img2 from "../../assets/customer-gallery/customer2.jpeg";
+import Img3 from "../../assets/customer-gallery/customer3.jpeg";
+import Img4 from "../../assets/customer-gallery/customer4.jpeg";
+import Img5 from "../../assets/customer-gallery/customer5.jpeg";
+import Img6 from "../../assets/customer-gallery/customer6.jpeg";
+import Img7 from "../../assets/customer-gallery/customer7.jpeg";
+import Img8 from "../../assets/customer-gallery/customer8.jpeg";
+import Img9 from "../../assets/customer-gallery/customer9.jpeg";
+import Img10 from "../../assets/customer-gallery/customer10.jpeg";
+import Img11 from "../../assets/customer-gallery/customer11.jpeg";
+import Img12 from "../../assets/customer-gallery/customer12.jpeg";
 
 const CustomerImg = [
   {

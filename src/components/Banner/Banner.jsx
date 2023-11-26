@@ -1,6 +1,6 @@
 import React from "react";
-import BannerImg from "../../assets/banner.jpg";
-import dottedOverlay from "../../assets/dotted.png";
+import BannerImg from "../../assets/shop-banner/banner.jpg";
+import dottedOverlay from "../../assets/background/dotted.png";
 
 const Banner = () => {
   return (

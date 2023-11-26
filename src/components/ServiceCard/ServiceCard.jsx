@@ -39,6 +39,7 @@ const ServiceCard = () => {
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
             {ServiceData.map((data, index) => (
               <div
+                key={index}
                 data-aos="fade-up"
                 data-aos-delay={data.delay}
                 className="group flex flex-col items-center justify-center gap-4 rounded-xl p-6 shadow-[1px_1px_6px_0px_#bebebe] transition duration-200 hover:!bg-primary hover:text-white hover:shadow-lg dark:bg-gray-950"

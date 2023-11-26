@@ -6,8 +6,8 @@ import {
   FaLocationArrow,
   FaMobileAlt,
 } from "react-icons/fa";
-import FooterBg from "../../assets/footer-bg.jpg";
-import Iphone from "../../assets/mobile/iphone14pro.png";
+import FooterBg from "../../assets/background/footer-bg.jpg";
+import Iphone from "../../assets/mobile-png/iphone14pro.png";
 
 const Footer = () => {
   return (
@@ -76,7 +76,7 @@ const Footer = () => {
                 </h1>
                 <ul className={`flex flex-col gap-3`}>
                   <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
-                    Home
+                    <a href="/#">Home</a>
                   </li>
                   <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
                     <a href="/#mobile_brands">Best Mobile Phones</a>

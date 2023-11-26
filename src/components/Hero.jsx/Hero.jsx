@@ -1,8 +1,8 @@
 import React from "react";
-import Banner from "../../assets/iphone.png";
-import dotted from "../../assets/dotted.png";
+import Banner from "../../assets/mobile-png/iphone.png";
+import dotted from "../../assets/background/dotted.png";
 import { BiPhoneCall } from "react-icons/bi";
-import GradientBG from "../../assets/gradient-img.jpg";
+import GradientBG from "../../assets/background/gradient-img.jpg";
 
 const Hero = () => {
   return (
@@ -18,6 +18,7 @@ const Hero = () => {
       >
         <section className="container flex h-[650px] flex-col items-center justify-center md:h-[500px] ">
           <div className="grid grid-cols-1 items-center gap-8  md:grid-cols-2">
+            {/* Hero Content Section */}
             <div
               data-aos="zoom-out"
               data-aos-duration="400"
@@ -50,6 +51,7 @@ const Hero = () => {
                 </button>
               </div>
             </div>
+            {/* Hero Image Section */}
             <div
               data-aos="fade-up"
               data-aos-duration="400"
