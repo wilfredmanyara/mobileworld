@@ -35,13 +35,13 @@ const Hero = () => {
                 <button className="rounded-full border-2 border-primary bg-primary px-8 py-2 text-white transition duration-300 hover:scale-105 hover:bg-primary">
                   <a
                     className="flex items-center gap-3"
-                    href="tel:+918115525250"
+                    href="tel:+918574389339"
                   >
                     Connect Now <BiPhoneCall />{" "}
                   </a>{" "}
                 </button>
                 <button className="border-1 rounded-full border-2 border-white px-4 py-2 text-white transition duration-300 hover:scale-105 hover:bg-primary hover:text-white ">
-                  <a className="cursor-pointer" href="https://wa.me/8115525250">
+                  <a className="cursor-pointer" href="https://wa.me/8574389339">
                     Message
                   </a>{" "}
                 </button>
