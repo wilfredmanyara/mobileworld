@@ -14,19 +14,25 @@ const Counter = () => {
           <h1 className="text-sm font-bold text-black/80 dark:text-white sm:text-lg md:text-3xl">
             <CountUp end={5000} suffix="+" duration={2.75} />
           </h1>
-          <h1 className="sm:text-md text-xs  md:text-lg">Mobile Sold</h1>
+          <h1 className="sm:text-md text-center  text-xs md:text-lg">
+            Mobile Sold
+          </h1>
         </div>
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-sm font-bold text-black/80 dark:text-white sm:text-lg md:text-3xl">
             <CountUp end={100} suffix="%" duration={2.75} />
           </h1>
-          <h1 className=" sm:text-md text-xs md:text-lg">Happy Customer</h1>
+          <h1 className=" sm:text-md text-center text-xs md:text-lg">
+            Happy Customer
+          </h1>
         </div>
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-sm font-bold text-black/80 dark:text-white sm:text-lg md:text-3xl">
             <CountUp end={234} suffix="+" />
           </h1>
-          <h1 className="sm:text-md text-xs md:text-lg">Recent Orders</h1>
+          <h1 className="sm:text-md text-center text-xs md:text-lg">
+            Recent Orders
+          </h1>
         </div>
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-sm font-bold text-black/80 dark:text-white sm:text-lg md:text-3xl">
@@ -38,7 +44,9 @@ const Counter = () => {
               suffix="+"
             />
           </h1>
-          <h1 className="sm:text-md text-xs  md:text-lg">Best Products</h1>
+          <h1 className="sm:text-md text-center  text-xs md:text-lg">
+            Best Products
+          </h1>
         </div>
       </div>
     </section>

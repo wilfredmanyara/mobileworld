@@ -24,7 +24,7 @@ const Hero = () => {
               data-aos-once="true"
               className="flex flex-col items-center gap-6 text-center  text-white md:items-start md:text-left "
             >
-              <h1 className=" text-5xl ">
+              <h1 className=" text-4xl sm:text-4xl md:text-5xl ">
                 Mobile World: Your Gateway to Smart Living
               </h1>
               <p className="text-white/80">
@@ -41,7 +41,10 @@ const Hero = () => {
                   </a>{" "}
                 </button>
                 <button className="border-1 rounded-full border-2 border-white px-4 py-2 text-white transition duration-300 hover:scale-105 hover:bg-primary hover:text-white ">
-                  <a className="cursor-pointer" href="https://wa.me/8574389339">
+                  <a
+                    className="cursor-pointer"
+                    href="https://wa.me/+918574389339"
+                  >
                     Message
                   </a>{" "}
                 </button>
@@ -56,7 +59,7 @@ const Hero = () => {
               <img
                 src={Banner}
                 alt="No image"
-                className="hover:drop-shadow-md md:translate-y-[35px] md:scale-150"
+                className="translate-y-[35px] hover:drop-shadow-md md:translate-y-[35px] md:scale-150"
               />
             </div>
           </div>

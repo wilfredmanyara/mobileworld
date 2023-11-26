@@ -57,32 +57,32 @@ const Gallery = () => {
               <img
                 src={Img7}
                 alt="customer"
-                className="max-rounded-lg h-auto w-full shadow-md"
+                className="h-auto w-full max-w-full rounded-lg shadow-md"
               />
               <img
                 src={Img8}
                 alt="customer"
-                className="max-rounded-lg h-auto w-full shadow-md"
+                className="h-auto w-full max-w-full rounded-lg shadow-md"
               />
               <img
                 src={Img9}
                 alt="customer"
-                className="max-rounded-lg h-auto w-full shadow-md"
+                className="h-auto w-full max-w-full rounded-lg shadow-md"
               />
               <img
                 src={Img10}
                 alt="customer"
-                className="max-rounded-lg h-auto w-full shadow-md"
+                className="h-auto w-full max-w-full rounded-lg shadow-md"
               />
               <img
                 src={Img11}
                 alt="customer"
-                className="max-rounded-lg h-auto w-full shadow-md"
+                className="h-auto w-full max-w-full rounded-lg shadow-md"
               />
               <img
                 src={Img12}
                 alt="customer"
-                className="max-rounded-lg h-auto w-full shadow-md"
+                className="h-auto w-full max-w-full rounded-lg shadow-md"
               />
             </div>
           </div>

@@ -11,7 +11,7 @@ const BrandCard = ({ title, image }) => {
           <img
             src={image}
             alt="No image"
-            className="mx-auto h-[300px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
+            className="mx-auto h-[200px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110 md:h-[300px]"
           />
         </div>
         <div className="space-y-3 py-3">

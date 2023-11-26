@@ -17,7 +17,7 @@ const Banner = () => {
               without any intrest.
             </p>
             <button className="rounded-md bg-white px-4 py-2 text-sm  text-black transition-colors duration-300 hover:bg-white/90">
-              <a className="cursor-pointer" href="https://wa.me/8115525250">
+              <a className="cursor-pointer" href="https://wa.me/+918574389339">
                 Connect On WhatsApp
               </a>{" "}
             </button>

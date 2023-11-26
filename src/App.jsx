@@ -16,6 +16,7 @@ import Location from "./components/Location/Location";
 import Testimonial from "./components/Testimonial/Testimonial";
 import Footer from "./components/Footer/Footer";
 import Gallery from "./components/Gallery/Gallery";
+import Team from "./components/Owner/Team";
 
 const bannerMockData = {
   title: "Transforming Tech Dreams into Reality!",
@@ -63,6 +64,7 @@ function App() {
         <Gallery />
         <Location />
         <Testimonial />
+        <Team />
         <Footer />
       </div>
     </>

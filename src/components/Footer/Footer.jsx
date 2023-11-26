@@ -121,7 +121,7 @@ const Footer = () => {
         <div>
           <div className="border-t-2 border-gray-300/50 py-6 text-center">
             @copyright 2024 Mobile world || Made with ❤️ by{" "}
-            <a className="cursor-pointer" href="https://wa.me/8318639067">
+            <a className="cursor-pointer" href="https://wa.me/+918318639067">
               Dilshad
             </a>{" "}
           </div>
