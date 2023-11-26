@@ -31,13 +31,13 @@ const Hero = () => {
                 Discover the Future of Mobile Convenience - EMI Plans,
                 Trendsetting Accessories, and Exceptional Services.
               </p>
-              <div className="space-x-4">
+              <div className="flex gap-4">
                 <button className="rounded-full border-2 border-primary bg-primary px-8 py-2 text-white transition duration-300 hover:scale-105 hover:bg-primary">
                   <a
                     className="flex items-center gap-3"
                     href="tel:+918574389339"
                   >
-                    Connect Now <BiPhoneCall />{" "}
+                    Call <BiPhoneCall />{" "}
                   </a>{" "}
                 </button>
                 <button className="border-1 rounded-full border-2 border-white px-4 py-2 text-white transition duration-300 hover:scale-105 hover:bg-primary hover:text-white ">
