@@ -55,13 +55,13 @@ const Footer = () => {
             <div className="mt-3 flex items-center gap-3">
               <FaMobileAlt />
               <p>
-                <a href="tel:+918574389339">+91 8574389339</a>{" "}
+                <a href="tel:+918574389339">+254758816768</a>{" "}
               </p>
             </div>
             <div className="mt-3 flex items-center gap-3">
               <FaMobileAlt />
               <p>
-                <a href="tel:+918577020551">+91 8577020551</a>{" "}
+                <a href="tel:+918577020551">+254727803751</a>{" "}
               </p>
             </div>
             {/* Google Translate */}
@@ -123,8 +123,8 @@ const Footer = () => {
         <div>
           <div className="border-t-2 border-gray-300/50 py-6 text-center">
             @copyright 2024 Mobile world || Made with ❤️ by{" "}
-            <a className="cursor-pointer" href="https://wa.me/+918318639067">
-              Dilshad
+            <a className="cursor-pointer" href="https://wa.me/+254704088109">
+              Wilfred Manyara
             </a>{" "}
           </div>
         </div>
